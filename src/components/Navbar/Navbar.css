@@ -1,0 +1,32 @@
+.navbar{
+    padding: 0 40px;
+    height: 60px;
+    background-color: #025FEB;
+    color: #FFFFFF;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 110px;
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.nav__links{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.icon__links{
+    width: 25px;
+    height: 25px;
+}

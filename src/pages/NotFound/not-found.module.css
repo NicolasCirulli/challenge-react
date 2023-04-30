@@ -1,0 +1,6 @@
+.image{
+    width: 100%;
+    max-width: 550px;
+    object-fit: contain;
+    align-self: center;
+}

@@ -1,0 +1,115 @@
+.schedule__container{
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+
+}
+.schedule__title{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #182C62;
+    margin: 0;
+}
+.schedule__table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color:#4B5C68;
+}
+.bold__text__table{
+    font-weight: bold;
+    font-size: 16px;
+}
+.schedule__table th{
+    font-size: 12px;
+    background-color: #E4EDF2;
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+}
+.schedule__table tbody td{
+    height: 70px;
+}
+.schedule__table tbody tr:nth-child(even){
+    background-color: #F6F7F7;
+}
+
+.col_1{
+   width: 10%;
+}
+.col_2{
+    width: 25%;
+}
+.col_3, .col_5{
+    width: 27.5%;
+}
+.col_4{
+    width: 10%;
+}
+.table__flag{
+    width: 52px;
+    height: 37px;
+}
+
+.col__date{
+    text-align: end;
+}
+
+.col__stadium{
+    padding-left: 50px;
+    text-align: start;
+}
+.flex__teams{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+.col_home{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.col_away{
+    
+    justify-content: flex-start;
+}
+.col_score{
+    text-align: center;
+}
+
+
+
+@media (max-width:500px) {
+    .col__stadium, .col__date{
+        display: none;
+     }
+     .col_1,.col_3{
+        width: 40% !important;
+     }
+     .col_2{
+         width: 20% !important;
+     }
+     
+}
+@media (max-width:750px) {
+    .col__stadium{
+        display: none;
+     }
+     .col_1{
+        width: 10%;
+     }
+     .col_2, .col_4{
+         width: 40%;
+     }
+     .col_3{
+         width: 10%;
+     }
+     
+}

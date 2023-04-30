@@ -1,6 +1,14 @@
-.welcomeMessage {
-    margin: 120px auto;
-    width: 50%;
-    text-align: left;
-    font-size: 24px;
+.layout{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
 }

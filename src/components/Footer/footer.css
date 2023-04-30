@@ -1,0 +1,16 @@
+/* color #4B5C68 - bg #F6F7F7 */
+
+.footer__container{
+    background-color: #F6F7F7;
+    padding: 0 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+}
+.footer__text{
+    color: #4B5C68;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
